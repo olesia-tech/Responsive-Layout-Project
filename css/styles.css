@@ -59,7 +59,7 @@ font-weight: bold;
   background-color: rgb(238, 240, 240);
 }
 
-.skills h3 {
+#skills {
   text-transform: uppercase;
 font-weight: bold;
 }
@@ -73,6 +73,12 @@ font-weight: bold;
 
 
 .skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
   padding-bottom: 10%;
 }
 
